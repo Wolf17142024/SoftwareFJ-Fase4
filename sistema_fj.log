@@ -1,0 +1,18 @@
+2026-11-21 18:54:04 | INFO | === INICIO DE EJECUCIÓN DEL SISTEMA SOFTWARE FJ ===
+2026-11-21 18:54:04 | INFO | Cliente registrado exitosamente: Cliente [CLI-01] - Laura Martínez | Correo: laura.m@empresa.com | Tel: 3104567890
+2026-11-21 18:54:04 | INFO | Cliente registrado exitosamente: Cliente [CLI-02] - Carlos Mendoza | Correo: cmendoza@tech.co | Tel: 3209876543
+2026-11-21 18:54:04 | ERROR | [OP 3] Validación de cliente capturada: Correo electrónico inválido: 'correo_sin_arroba.com'.
+2026-11-21 18:54:04 | ERROR | [OP 4] Validación de teléfono capturada: Teléfono inválido: '315ABC99'. Debe contener solo números (mín. 7 dígitos).
+2026-11-21 18:54:04 | INFO | Servicio registrado exitosamente: Sala [SRV-01]: Sala Juntas Innovación (Cap: 12 pers.) - $50000.0/h [Disponible]
+2026-11-21 18:54:04 | INFO | Servicio registrado exitosamente: Equipo [SRV-02]: Servidor Dell PowerEdge - $35000.0/h + Depósito $100000.0 [Disponible]
+2026-11-21 18:54:04 | INFO | Servicio registrado exitosamente: Asesoría [SRV-03]: Auditoría Ciberseguridad (Seguridad Informática) - $120000.0/h [Disponible]
+2026-11-21 18:54:04 | ERROR | [OP 6] Error en creación de servicio: La tarifa base (-25000) debe ser mayor a cero.
+2026-11-21 18:54:04 | INFO | Reserva confirmada: Reserva [RES-01] | Estado: CONFIRMADA | Cliente: Laura Martínez | Servicio: Sala Juntas Innovación | Duración: 4h | Total: $238,000.00
+2026-11-21 18:54:04 | INFO | [OP 7] Bloque finally ejecutado tras intento de reserva RES-01.
+2026-11-21 18:54:04 | ERROR | [OP 8] Intento de reserva sobre recurso ocupado: La sala 'Sala Juntas Innovación' no está disponible actualmente.
+2026-11-21 18:54:04 | INFO | Reserva confirmada: Reserva [RES-03] | Estado: CONFIRMADA | Cliente: Carlos Mendoza | Servicio: Servidor Dell PowerEdge | Duración: 5h | Total: $278,162.50
+2026-11-21 18:54:04 | ERROR | [OP 10] Cálculo inconsistente bloqueado: Descuento fuera de rango lógico (0 a 0.99): 1.5
+2026-11-21 18:54:04 | ERROR | [OP 11] Fallo al vincular entidades en la reserva 'RES-05'. | Causa original encadenada: KeyError("ID de cliente 'CLI-999' no encontrado en el listado.")
+2026-11-21 18:54:04 | INFO | [OP 12] Reserva RES-01 cancelada. Sala liberada.
+2026-11-21 18:54:04 | INFO | Reserva confirmada: Reserva [RES-06] | Estado: CONFIRMADA | Cliente: Carlos Mendoza | Servicio: Sala Juntas Innovación | Duración: 3h | Total: $135,000.00
+2026-11-21 18:54:04 | INFO | === FIN DE EJECUCIÓN DEL SISTEMA SOFTWARE FJ ===
